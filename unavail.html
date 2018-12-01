@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>RIT Canteen Buddy</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+	<div id="header">
+		<img src="rit3.png" alt="RIT">
+		<h1><a href="index.html">RIT CANTEEN BUDDY <span>Canteen Management System</span></a></h1>
+			<ul id="menu">
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="login.html">LOGOUT</a>
+				</li>
+				<li>
+					<a href="Tablename">ORDER NOW</a>
+				</li>
+				<li>
+					<a href="help.html">HELP</a>
+				</li>
+			</ul>
+	</div>
+	
+	<div id="body">
+		<div id="food" >
+			<h1>Click on a item to remove it from the current menu</h1>
+			<ul id="menu">
+				<form action="Unavail" method="get">
+					<li>
+						<input type="submit" value="Masala Dosa" onclick="alert('Masala Dosa removed from Menu!')" name="f">
+					</li><br>
+					<li>
+						<input type="submit" value="Idli" onclick="alert('Idli removed from Menu!')" name="f">
+					</li><br>
+					<li>
+						<input type="submit" value="Kerala Parota" onclick="alert('Kerala Parota removed from Menu!')" name="f">
+					</li><br>
+					<li>
+						<input type="submit" value="Roti Curry" onclick="alert('Roti Curry removed from Menu!')" name="f">
+					</li><br>
+					<li>
+						<input type="submit" value="Butter Naan" onclick="alert('Butter Naan removed from Menu!')" name="f">
+					</li><br>
+					<li>
+						<input type="submit" value="Noodles" onclick="alert('Noodles removed from Menu!')" name="f"> 
+					</li><br>
+					<li>
+						<input type="submit" value="Bisi Bele Bath" onclick="alert('Bisi Bele Bath removed from Menu!')" name="f">
+					</li><br>
+					<li>
+						<input type="submit" value="Rice Bath" onclick="alert('Rice Bath removed from Menu!')" name="f">
+					</li><br>
+					<li>
+						<input type="submit" value="Meals" onclick="alert('Meals removed from Menu!')" name="f">
+					</li><br>
+					<li>
+						<input type="submit" value="Gobi Manchurian" onclick="alert('Gobi Manchurian removed from Menu!')" name="f">
+					</li><br>
+					<li>
+						<input type="submit" value="Idli Vada" onclick="alert('Idli Vada removed from Menu!')" name="f">
+					</li><br>
+				</form>	
+			</ul><br><br>
+			<a href="Menu.jsp">Click here to view current menu</a><br><br><br><br>
+			<a href="avail.html">Click here to add items to current menu</a>
+		</div>	
+	</div>
+	
+	<div id="footer">
+		<address> 
+			RAMAIAH INSTITUTE OF TECHNOLOGY<br>
+			(Autonomous Institute, Affiliated to VTU)<br>
+			BANGALORE – 54
+		</address>
+	</div>
+</body>
+</html>
